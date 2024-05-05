@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modal_homes",
+  "info": {
+    "singularName": "modal-home",
+    "pluralName": "modal-homes",
+    "displayName": "Modal Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "anuncio": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * home service
+ * review service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::home.home');
+module.exports = createCoreService('api::review.review');
